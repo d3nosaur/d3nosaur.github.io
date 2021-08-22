@@ -495,6 +495,7 @@ html,body {
 .portfolio__single-section__image{
  display: block;
  height: auto;
+ border: 8px solid rgba(120, 88, 221, .9);
 }
 
 .portfolio__single-section h4{
@@ -522,7 +523,8 @@ html,body {
 .portfolio__single-section .overlay-content{
   position: absolute;
   bottom: 25px;
-  margin-left: 35px;
+  margin-left: 25px;
+  margin-right: 25px;
   z-index: 10;
 }
 

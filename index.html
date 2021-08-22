@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Project</title>
-  <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
-  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
+  <title>Deno's Portfolio</title>
 
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -15,82 +13,45 @@
 <div id="content-wrapper">
   <header class="header header--bg">
     <div class="container">
-      <nav class="navbar">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span> 
-          </button>
-          <a class="navbar-brand" href="#">OBELA</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SKILL</a></li> 
-            <li><a href="#">PORTFOLIO</a></li> 
-            <li><a href="#">TEAM</a></li> 
-            <li><a href="#">BLOG</a></li> 
-            <li><a href="#">CONTACT</a></li> 
-          </ul>
-        </div>
-      </nav>
       <div class="header__content text-center">
-        <span class="header__content__block">HELLO</span>
-        <h1 class="header__content__title">I'M JOHNNY D. DORSCH</h1>
+        <h1 class="header__content__title">DENO</h1>
         <ul class="header__content__sub-title">
-          <li>UI&#47;UX DESIGNER <span class="padding">&#45;</span></li>
-          <li>WEB DEVELOPER <span class="padding">&#45;</span></li>
-          <li>PHOTOGRAPHAR</li>
-        </ul>
-        <a class="header__button" href="#">HAVE PROJECT? LET'S TALK</a>
-      </div>
-      <div class="social-icon pull-right">
-        <ul>
-          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+          <li>MODEL MAKER <span class="padding">&#45;</span></li>
+          <li>DEVELOPER <span class="padding">&#45;</span></li>
+          <li>TEXTURE ARTIST</li>
         </ul>
       </div>
     </div>
   </header>
 
-  <section class="about">
-    <div class="container about__container--narrow">
+  <section class="service">
+    <div class="container">
       <div class="page-section">
-        <h2 class="page-section__title">ABOUT ME</h2>
-          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <div class="row gutters-80">
-            <div class="col-md-4">
-              <div class="about__image">
-                <img src="assets/images/about-me-image.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-8 about__content">
-              <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-              <div class="row row--margin-top">
-                <div class="col-md-4">
-                  <p class="about__bio"><strong>NAME :</strong> Jonny D. Dorsch</p>
-                  <p class="about__bio"><strong>AGE :</strong> 21</p>
-                </div>
-                <div class="col-md-4">
-                  <p class="about__bio"><strong>JOB TITLE :</strong> UI&#47;UX Designer</p>
-                  <p class="about__bio"><strong>LOCATION :</strong> California,USA</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">DOWNLOAD CV</a>
-                </div>
-                <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">HIRE ME</a>
-                </div>
-              </div>
+        <h2 class="page-section__title">MY SERVICES</h2>
+        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+        <div class="row gutters-70">
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/logo-design.png" alt="">
+              <h4 class="service__single-section__title">DEVELOPMENT</h4>
+              <p class="service__single-section__paragraph">I am proficient in Java, JS, Python, LUA, MySQL, Spigot, GLUA and Discord.JS. </p>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/model-making.png" alt="">
+              <h4 class="service__single-section__title">MODEL CREATION</h4>
+              <p class="service__single-section__paragraph">I am able to create models from scratch including collisions, rigging and animating. </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail text-center">
+              <img src="assets/images/texture-design.png" alt="">
+              <h4 class="service__single-section__title">TEXTURE DESIGN</h4>
+              <p class="service__single-section__paragraph">I am capable of editing or creating textures for models as well as creating UV Maps.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -100,22 +61,23 @@
       <div class="page-section">
         <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
         <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
-        <p class="page-section__paragraph page-section__paragraph--white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <div class="row gutters-60">
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="assets/images/adobe-photoshop.png" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <img src="assets/images/java.png" alt="">
+              <h4 class="skill__single-part__title">JAVA</h4>
+              <p class="page-section__paragraph">I have utilized Java primarily when creating the Tamewater Minecraft Server. </p>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7FB7FA;">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #ff7c7c;">
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="assets/images/adobe-illustrator.png" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <img src="assets/images/javascript.png" alt="">
+              <h4 class="skill__single-part__title">JAVASCRIPT</h4>
+              <p class="page-section__paragraph">I have utilized Javascript when creating the TW Model Making Discord Bot. </p>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width:80%;background-color: #FFAC1B;;">
                 </div>
@@ -124,177 +86,196 @@
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
-              <img src="assets/images/adobe-after-effects.png" alt="">
-              <h4 class="skill__single-part__title">ADOBE PHOTOSHOP</h4>
+              <img src="assets/images/lua.png" alt="">
+              <h4 class="skill__single-part__title">LUA</h4>
+              <p class="page-section__paragraph">I have utilized Lua primarily in Garry's Mod creating scripts, weapons and entities. </p>
               <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #C99AFF;">
+                <div class="progress-bar" role="progressbar" style="width:80%;background-color: #9aa1ff;">
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="service">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY SERVICES</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="row gutters-70">
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/logo-design.png" alt="">
-              <h4 class="service__single-section__title">LOGO DESIGN</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/website-design.png" alt="">
-              <h4 class="service__single-section__title">WEBSITE DESIGN</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/support.png" alt="">
-              <h4 class="service__single-section__title">SUPPORT</h4>
-              <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="overview overview--bg">
-    <div class="container">
-      <div class="page-section">
-        <div class="row gutters-140">
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">headset_mic</i>
-          <h2 class="overview__single-section__number">220</h2>
-          <p class="overview__single-section__title">Hand to Work</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">mood</i>
-          <h2 class="overview__single-section__number">530</h2>
-          <p class="overview__single-section__title">Happy Client</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">assignment_turned_in</i>
-          <h2 class="overview__single-section__number">780</h2>
-          <p class="overview__single-section__title">Finished Project</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">local_bar</i>
-          <h2 class="overview__single-section__number">970</h2>
-          <p class="overview__single-section__title">Cups of coffe</p>
-        </div>
-      </div>
       </div>
     </div>
   </section>
 
   <section class="portfolio">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY PORTFOLIO</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="portfolio__button-group">
-          <a class="button button--default" data-filter="all" href="#">ALL</a>
-          <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-          <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-          <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-          <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-        </div>
-        <div class="row gutters-40">
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-1.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+    <div id="portfolio">
+      <div class="container">
+        <div class="page-section">
+          <h2 class="page-section__title">MY PORTFOLIO</h2>
+          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+          <div class="portfolio__button-group">
+            <a class="button button--default" data-filter="all" href="#">ALL</a>
+            <a class="button button--default" data-filter=".category-a" href="#">GARRY'S MOD</a>
+            <a class="button button--default" data-filter=".category-b" href="#">MINECRAFT</a>
+            <a class="button button--default" data-filter=".category-c" href="#">MODEL MAKING</a>
+            <a class="button button--default" data-filter=".category-d" href="#">OTHER</a>
+          </div>
+          <div class="row gutters-40">
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-bounty.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>BOUNTY BOARD</h4>
+                    <p>This was a system I made primarily for RP servers which allowed certain jobs to place bounties on people. This system had a config that let the server owner edit which jobs could place, see, and redeem the bounties. When the list of bounties filled up it would slowly scroll through them, highlighting one person at a time.</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-a category-c" data-order="2">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-2.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>WEBSITE DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-turret.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>AI TURRET</h4>
+                    <p>This is an entity that automatically finds and shoots NPCs or Players with a settings menu to change its alliance, tracer, damage and health.</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-c" data-order="3">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-3.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-ricochet.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>RICOCHET SHOT</h4>
+                    <p>This is a TFA Attachment that would bounce the shot off of walls or between targets with a laser to help find where the shot will land. If it hits a player it will bounce between nearby players, if it hits an NPC it will bounce between nearby NPCs.</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row gutters-40">
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="4">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-4.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>PHOTOGRAPHY</h4>
-                  <p>photographer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-skipray.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>SKIPRAY BLASTBOAT</h4>
+                    <p>This is an LFS ship that utilizes many different Garry's Mod systems. It has adaptive exhaust which will change size based on the ships throttle, a 360 degree turret which can be shot by the driver by holding alt and shooting or by a passenger, and the tail rotor can be swiveled 90 degrees like it does in lore.</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-b category-d" data-order="5">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-5.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>WEBSITE DESIGN</h4>
-                  <p>Designer</p>
-                </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-starchaser.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>STARCHASER</h4>
+                    <p>This is an LFS ship with a grappling hook attack that can pickup players, ships, props, or just act as a rope attaching to the map.</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="portfolio__single-section mix category-d" data-order="6">
-              <img class="portfolio__single-section__image img-responsive" src="assets/images/portfolio-6.png" alt="">
-              <div class="portfolio__single-section__overlay">
-                <div class="overlay-content">
-                  <h4>LOGO DESIGN</h4>
-                  <p>Designer</p>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-a category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-turbotank.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>CLONE TURBO TANK</h4>
+                    <p>This is a Simfphys driveable vehicle.</p>
+                  </div>
                 </div>
-                <div class="portfolio__single-section__search-icon">
-                  <a href="#"><img src="assets/images/search-icon.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-b" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-gui.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>GUI-MENU LIBRARY</h4>
+                    <p>This was a library that allowed me to easily create GUI Menus for many different purposes including the Lobby Menu, Arena Menu and the Skills Menu.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-b" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-itembase.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>CUSTOM ITEM BASE</h4>
+                    <p>This system allowed me to create items with definable rarity, damage, defense, attack speed, and abilities.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-b" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-moneydrops.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>MONEY DROPS</h4>
+                    <p>This system made it so there is a chance for any mob to drop a money bag with a min and max value defined in a JSON config.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-b" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-quests.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>QUESTS</h4>
+                    <p>This system allowed the player to talk to NPCs to earn and complete quests. I utilized a MySQL database to more efficiently store the questing data.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-b" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-arena.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>ARENA</h4>
+                    <p>This system included the Custom Mobs and allowed me to easily create arenas and bosses to go with them. The arenas need an origin point, radius, and list of bosses that will spawn and it will create the arena and boss spawner block/menu to go along with it.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-b1.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>B1 RIG</h4>
+                    <p>This was a rig I created for a B1 Battle Droid for s&box, it included Inverse Kinematics to make the animating easier.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-dsd.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>DWARF SPIDER DROID</h4>
+                    <p>This model I was working on to become a NextBot for Garry's Mod.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-c" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-hsd.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>HOMING SPIDER DROID</h4>
+                    <p>When I was working on this model I was learning Inverse Kinematics and put it to use to automatically move the limbs and pistons into the correct position for assisted animating.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="portfolio__single-section mix category-d" data-order="1">
+                <img class="portfolio__single-section__image img-responsive" src="assets/images/other-frederick.png" alt="">
+                <div class="portfolio__single-section__overlay">
+                  <div class="overlay-content">
+                    <h4>DISCORD BOT</h4>
+                    <p>This bot was used for the Tamewater Model Creation Team to manage the tickets and Custom Class Creation. Along with the ticket system I have created a Command Handler, Reaction Role System, and many commands like Mute and TicTacToe.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -304,7 +285,7 @@
     </div>
   </section>
 
-  <section class="slider slider--bg">
+  <!--<section class="slider slider--bg">
     <div id="myCarousel" class="carousel container slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -380,9 +361,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section class="team">
+  <!--<section class="team">
     <div class="container">
       <div class="page-section">
         <h2 class="page-section__title">MY TEAM</h2>
@@ -569,68 +550,13 @@
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="brand-logo brand-logo--bg">
-    <div class="container">
-      <div class="row">
-        <div class="brand-logo__wrapper">
-          <li><img class="img-responsive" src="assets/images/brand-1.png" alt=""></li>
-          <li><img class="img-responsive" src="assets/images/brand-2.png" alt=""></li>
-          <li><img class="img-responsive" src="assets/images/brand-3.png" alt=""></li>
-          <li><img class="img-responsive" src="assets/images/brand-4.png" alt=""></li>
-          <li><img class="img-responsive" src="assets/images/brand-1.png" alt=""></li>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="blog">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">BLOG POST</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="row gutters-40">
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img class="img-responsive" src="assets/images/blog-1.png" alt="">
-              <p class="blog__single__date">MAY 25 , 2017 </p>
-              <i class="material-icons">comment</i> 5
-              <a href="#"><h4 class="blog__single__title">HEADLINE LATEST WORLD NEWS</h4></a>
-              <p class="blog__single__paragraph">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  Ut enim ad minim veniam <a href="#"><span class="blog__single__paragraph--read-more">READ MORE...</span></a></p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/blog-2.png" alt="">
-              <p class="blog__single__date">MAY 25 , 2017 </p>
-              <i class="material-icons">comment</i> 5
-              <a href="#"><h4 class="blog__single__title">HEADLINE LATEST WORLD NEWS</h4></a>
-              <p class="blog__single__paragraph">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  Ut enim ad minim veniam <a href="#"><span class="blog__single__paragraph--read-more">READ MORE...</span></a></p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/blog-3.png" alt="">
-              <p class="blog__single__date">MAY 25 , 2017 </p>
-              <i class="material-icons">comment</i> 5
-              <a href="#"><h4 class="blog__single__title">HEADLINE LATEST WORLD NEWS</h4></a>
-              <p class="blog__single__paragraph">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  Ut enim ad minim veniam <a href="#"><span class="blog__single__paragraph--read-more">READ MORE...</span></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </section>-->
 
   <footer class="footer footer--bg">
     <div class="container text-center">
-      <h1 class="footer__title">OBELA</h1>
       <ul class="footer__contact-information">
-        <li><a href="tel:5555555555"><i class="material-icons">phone</i> Hotline (+123) 45 67 89 21</a></li>
-        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i> sshahriar458@gmail.com</a></li>
-        <li><a href="#"><i class="material-icons">location_on</i> DartThemes address goes here.</a></li>
+        <li><a href="mailto:d3nosaur@gmail.com"><i class="material-icons">email</i> d3nosaur@gmail.com</a></li>
+        <li><a href="https://discord.gg"><i class="material-icons">headset_mic</i> Deno#5735</a></li>
       </ul>
     </div>
     <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
@@ -643,7 +569,6 @@
           <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
         </ul>
       </div>
-      <p class="footer__paragraph">Copyright &copy; 2017 DartThemes , All Rights Reserved.</p>
     </div>
   </footer>
 </div>
