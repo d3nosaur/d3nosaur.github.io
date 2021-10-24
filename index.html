@@ -8,10 +8,36 @@
   <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .spacer {
+      aspect-ratio: 960/150;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .pink-orange {
+      background-image: url('./assets/spacers/pink-orange.svg')
+    }
+
+    .purple-blue {
+      background-image: url('./assets/spacers/purple-blue.svg')
+    }
+
+    .blue-pink {
+      background-image: url('./assets/spacers/blue-pink.svg')
+    }
+
+    .orange-black {
+      background-image: url('./assets/spacers/orange-black.svg')
+    }
+  </style>
 </head>
 <body>
 <div id="content-wrapper">
-  <header class="header header--bg">
+  <header class="header header--bg color:#521e82">
     <div class="container">
       <div class="header__content text-center">
         <h1 class="header__content__title">DENO</h1>
@@ -24,31 +50,33 @@
     </div>
   </header>
 
+  <div class="spacer purple-blue"></div>
+
   <section class="service">
     <div class="container">
       <div class="page-section">
-        <h2 class="page-section__title">MY SERVICES</h2>
+        <h2 class="page-section__title">SERVICES</h2>
         <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
         <div class="row gutters-70">
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/logo-design.png" alt="">
               <h4 class="service__single-section__title">DEVELOPMENT</h4>
-              <p class="service__single-section__paragraph">I am proficient in Java, JS, Python, LUA, MySQL, Spigot, GLUA and Discord.JS. </p>
+              <p class="service__single-section__paragraph">Java, JS, Python, C++, MySQL, SQLite, Spigot, GLua, Discord.JS</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/model-making.png" alt="">
               <h4 class="service__single-section__title">MODEL CREATION</h4>
-              <p class="service__single-section__paragraph">I am able to create models from scratch including collisions, rigging and animating. </p>
+              <p class="service__single-section__paragraph">Making models, collisions, armatures, animations</p>
             </div>
           </div>
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/texture-design.png" alt="">
               <h4 class="service__single-section__title">TEXTURE DESIGN</h4>
-              <p class="service__single-section__paragraph">I am capable of editing or creating textures for models as well as creating UV Maps.</p>
+              <p class="service__single-section__paragraph">Editing/Creating Textures along with PBR Maps</p>
             </div>
           </div>
         </div>
@@ -56,33 +84,12 @@
     </div>
   </section>
 
-  <section class="overview overview--bg">
-    <div class="container">
-      <div class="page-section">
-        <div class="row gutters-140">
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">mood</i>
-          <h2 class="overview__single-section__number">26</h2>
-          <p class="overview__single-section__title">Happy Clients</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-          <i class="material-icons">assignment_turned_in</i>
-          <h2 class="overview__single-section__number">42</h2>
-          <p class="overview__single-section__title">Projects</p>
-        </div>
-        <div class="col-xs-6 col-lg-3 overview__single-section">
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
+  <div class="spacer blue-pink"></div>
 
   <section class="skill skill--bg">
     <div class="container skill__container--narrow">
       <div class="page-section">
-        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
+        <h2 class="page-section__title page-section__title--white">SKILLS</h2>
         <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
         <div class="row gutters-60">
           <div class="col-md-4">
@@ -150,11 +157,13 @@
     </div>
   </section>
 
+  <div class="spacer pink-orange"></div>
+
   <section class="portfolio">
     <div id="portfolio">
       <div class="container">
         <div class="page-section">
-          <h2 class="page-section__title">MY PORTFOLIO</h2>
+          <h2 class="page-section__title">PORTFOLIO</h2>
           <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
           <div class="portfolio__button-group">
             <a class="button button--default" data-filter="all" href="#">ALL</a>
@@ -357,272 +366,7 @@
     </div>
   </section>
 
-  <!--<section class="slider slider--bg">
-    <div id="myCarousel" class="carousel container slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img src="assets/images/me.png" alt="">
-                <h4>Michael T. Hill</h4>
-                <h6>Designer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img class="carousel-person-image" src="assets/images/team-2.png" alt="">
-                <h4>Leonard D. Downing</h4>
-                <h6>Photographer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img class="carousel-person-image" src="assets/images/team-3.png" alt="">
-                <h4>Paula R. Mullins</h4>
-                <h6>Designer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!--<section class="team">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY TEAM</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="row gutters-40">
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img class="img-responsive" src="assets/images/team-1.png" alt="">
-              <h4 class="team__single-section__name">VIOLET R. PETERS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">VIOLET R. PETERS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-3.png" alt="">
-              <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-2.png" alt="">
-              <h4 class="team__single-section__name">LEONARD D. DOWNING</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">LEONARD D. DOWNING</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-3.png" alt="">
-              <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>-->
+  <div class="spacer orange-black"></div>
 
   <footer class="footer footer--bg">
     <div class="container text-center">
@@ -631,21 +375,10 @@
         <li><a href="https://discord.gg"><i class="material-icons">headset_mic</i> Deno#5735</a></li>
       </ul>
     </div>
-    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+    <hr style="border: 0;border-top: 1px solid #313234;display:block;margin-top: 40px;">
   </footer>
 </div>
   <script src="assets/jquery/jquery-3.2.1.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/mixitup.js"></script>
-
-  <script>
-    $('a').click(function(e)
-      {
-        e.preventDefault();
-      });
-
-    // calling mixitup
-    var mixer = mixitup(".portfolio");
-  </script>
 </body>
 </html>  
