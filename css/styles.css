@@ -481,7 +481,7 @@ html,body {
 }
 
 .portfolio{
-  background-color: #f18e6f;
+  background-color: #f56c42;
 }
 
 .portfolio .button{
@@ -506,7 +506,7 @@ html,body {
 .portfolio__single-section__image{
  display: block;
  height: auto;
- border: 8px solid rgba(241, 98, 54, .9);
+ border: 8px solid rgba(181, 80, 49, .9);
 }
 
 .portfolio__single-section h4{
@@ -549,7 +549,7 @@ html,body {
   opacity: 0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  background-color: rgba(241, 98, 54, .9);
+  background-color: rgba(181, 80, 49, .9);
   border-radius: 10px;
 }
 
