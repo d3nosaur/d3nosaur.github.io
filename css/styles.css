@@ -78,7 +78,7 @@ html,body {
 }
 
 .header--bg{
-  background-color: #521e82;
+  background: url("../assets/images/header-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -91,7 +91,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background: -webkit-linear-gradient( 90deg, #521e82 0%, #521e82 100%);
+  background: -webkit-linear-gradient( 90deg, rgba(108,76,206, .9) 0%, rgba(127,86,253, .9) 100%);
   z-index: -1;
 }
 
@@ -326,7 +326,7 @@ html,body {
 }
 
 .skill--bg{
-  background-color: #ef0671;
+  background: url("../assets/images/skill-background.png") no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -339,7 +339,7 @@ html,body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #ef0671;
+  background-color: rgba(120, 88, 221, .9);
   z-index: -1;
 }
 
@@ -350,7 +350,6 @@ html,body {
 }
 
 .skill .thumbnail{
-  background-color: #efd8e3;
   padding: 10px 40px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
@@ -384,12 +383,7 @@ html,body {
   padding-left: 30px;
 }
 
-.service{
-  background-color: #48d3e0;
-}
-
 .service .thumbnail{
-  background-color: #a9dbe0;
   padding: 30px 19px;
   -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
@@ -413,7 +407,7 @@ html,body {
 
 .service__single-section__paragraph{
   font-size: 15px;
-  color: #495159;
+  color: #7b7b7b;
   line-height: 1.8;
 }
 
@@ -480,12 +474,7 @@ html,body {
   padding-left: 70px;
 }
 
-.portfolio{
-  background-color: #f18e6f;
-}
-
 .portfolio .button{
-  background-color: #fff;
   display: inline-block;
   padding: 12px 45px 8px 45px;
   margin-bottom: 20px;
@@ -938,7 +927,7 @@ html,body {
 }
 
 .footer--bg{
-  background-color: #01132b;
+  background-color: #27353B;
 }
 
 .footer__title{
