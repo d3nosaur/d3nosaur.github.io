@@ -1,628 +1,104 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Deno's Portfolio</title>
-
-  <link rel="stylesheet" href="assets/fonts/flat-icon/flaticon.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="deno, d3nosaur, deno.work">
+	<meta name="language" content="en">
+	<meta name="robots" content="INDEX,FOLLOW">
+	<meta name="author" content="Conna Wiles">
+    <title>Deno's Portfolio</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	<link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d195343b2e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<div id="content-wrapper">
-  <header class="header header--bg">
-    <div class="container">
-      <div class="header__content text-center">
-        <h1 class="header__content__title">DENO</h1>
-        <ul class="header__content__sub-title">
-          <li>MODEL MAKER <span class="padding">&#45;</span></li>
-          <li>DEVELOPER <span class="padding">&#45;</span></li>
-          <li>TEXTURE ARTIST</li>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Deno</h1>
+            <h2>Developer</h2>
+        </div>
+    </div>
+    
+    <div id="skills" style="border-bottom: 2px dashed #e84b43;">
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Lua</li>
+            <li>Photoshop</li>
+            <li>Blender</li>
+            <li>Substance Painter</li>
+            <li>MySQL</li>
+            <li>SQLite</li>
+            <li>Redis</li>
+            <li>Linux</li>
+            <li>Git</li>
         </ul>
-      </div>
     </div>
-  </header>
 
-  <section class="service">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY SERVICES</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <div class="row gutters-70">
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/logo-design.png" alt="">
-              <h4 class="service__single-section__title">DEVELOPMENT</h4>
-              <p class="service__single-section__paragraph">I am proficient in Java, JS, Python, LUA, MySQL, Spigot, GLUA and Discord.JS. </p>
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="2021 – Present" class="fadescroll">
+                <h3>StellarDev LLC</h3>
+                <h4>Spigot Plugin Developer</h4>
+                <p>
+		    Currently working as a General Contractor for <a href="https://stellardev.org/">StellarDev</a>, I am usually doing commissions for plugins and resource packs.
+                </p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/model-making.png" alt="">
-              <h4 class="service__single-section__title">MODEL CREATION</h4>
-              <p class="service__single-section__paragraph">I am able to create models from scratch including collisions, rigging and animating. </p>
+            <div data-date="2018 – 2021" class="fadescroll">
+                <h3>Tamewater Servers</h3>
+                <h4>Division Leader</h4>
+                <p>
+		    I worked with Tamewater to create their Towny and Prison servers. My main focus was setting ourselves apart by creating custom content and creating RPG aspects.
+                </p>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/texture-design.png" alt="">
-              <h4 class="service__single-section__title">TEXTURE DESIGN</h4>
-              <p class="service__single-section__paragraph">I am capable of editing or creating textures for models as well as creating UV Maps.</p>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
 
-  <section class="skill skill--bg">
-    <div class="container skill__container--narrow">
-      <div class="page-section">
-        <h2 class="page-section__title page-section__title--white">MY SKILL</h2>
-        <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
-        <div class="row gutters-60">
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/java.png" alt="">
-              <h4 class="skill__single-part__title">JAVA</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #ff7c7c;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/javascript.png" alt="">
-              <h4 class="skill__single-part__title">JAVASCRIPT</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #FFAC1B;;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/lua.png" alt="">
-              <h4 class="skill__single-part__title">LUA</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #5334ff;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/substance.png" alt="">
-              <h4 class="skill__single-part__title">SUBSTANCE PAINTER</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #ff6e6e;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/blender.png" alt="">
-              <h4 class="skill__single-part__title">BLENDER</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #ff8d58;">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail text-center">
-              <img src="assets/images/sql.png" alt="">
-              <h4 class="skill__single-part__title">SQL</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width:100%;background-color: #5885ff;">
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="spacer lightdark"></div>
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block fadescroll">
+            <h3>University of Rhode Island</h3>
+            <span class="education-date">2022 - Present</span>
+            <h4>Computer Science - Javascript, Java, Python</h4>
         </div>
-      </div>
     </div>
-  </section>
 
-  <section class="portfolio">
-    <div id="portfolio">
-      <div class="container">
-        <div class="page-section">
-          <h2 class="page-section__title">MY PORTFOLIO</h2>
-          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <div class="portfolio__button-group">
-            <a class="button button--default" data-filter="all" href="#">ALL</a>
-            <a class="button button--default" data-filter=".category-a" href="#">GARRY'S MOD</a>
-            <a class="button button--default" data-filter=".category-b" href="#">MINECRAFT</a>
-            <a class="button button--default" data-filter=".category-c" href="#">MODEL MAKING</a>
-            <a class="button button--default" data-filter=".category-d" href="#">OTHER</a>
-          </div>
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-gui.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>GUI-MENU LIBRARY</h4>
-                    <p>This was a library that allowed me to easily create GUI Menus for many different purposes including the Lobby Menu, Arena Menu and the Skills Menu.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-itembase.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>CUSTOM ITEM BASE</h4>
-                    <p>This system allowed me to create items with definable rarity, damage, defense, attack speed, and abilities.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-moneydrops.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MONEY DROPS</h4>
-                    <p>This system made it so there is a chance for any mob to drop a money bag with a min and max value defined in a JSON config.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-quests.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>QUESTS</h4>
-                    <p>This system allowed the player to talk to NPCs to earn and complete quests. I utilized a MySQL database to more efficiently store the questing data.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mc-arena.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>ARENA</h4>
-                    <p>This system included the Custom Mobs and allowed me to easily create arenas and bosses to go with them. The arenas need an origin point, radius, and list of bosses that will spawn and it will create the arena and boss spawner block/menu to go along with it.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-bounty.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>BOUNTY BOARD</h4>
-                    <p>This was a system I made primarily for RP servers which allowed certain jobs to place bounties on people. This system had a config that let the server owner edit which jobs could place, see, and redeem the bounties. When the list of bounties filled up it would slowly scroll through them, highlighting one person at a time.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-thermal.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>THERMAL VISION</h4>
-                    <p>A TFA Attachment that darkens the screen and highlights visible NPCs and Players. Inspired by the one in GTA 5.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-turret.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>AI TURRET</h4>
-                    <p>This is an entity that automatically finds and shoots NPCs or Players with a settings menu to change its alliance, tracer, damage and health.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-ricochet.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>RICOCHET SHOT</h4>
-                    <p>This is a TFA Attachment that would bounce the shot off of walls or between targets with a laser to help find where the shot will land. If it hits a player it will bounce between nearby players, if it hits an NPC it will bounce between nearby NPCs.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/gmod-reborn-scoreboard.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>REBORN SCOREBOARD</h4>
-                    <p>This is a scoreboard made for Reborn JvS, it also contains a menu when clicking on people to copy their steamid and see their money, playtime and staff role</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-skipray.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>SKIPRAY BLASTBOAT</h4>
-                    <p>This is an LFS ship that utilizes many different Garry's Mod systems. It has adaptive exhaust which will change size based on the ships throttle, a 360 degree turret which can be shot by the driver by holding alt and shooting or by a passenger, and the tail rotor can be swiveled 90 degrees like it does in lore.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-starchaser.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>STARCHASER</h4>
-                    <p>This is an LFS ship with a grappling hook attack that can pickup players, ships, props, or just act as a rope attaching to the map.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-turbotank.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>CLONE TURBO TANK</h4>
-                    <p>This is a Simfphys driveable vehicle.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-b1.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>B1 RIG</h4>
-                    <p>This was a rig I created for a B1 Battle Droid for s&box, it included Inverse Kinematics to make the animating easier.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-dsd.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>DWARF SPIDER DROID</h4>
-                    <p>This model I was working on to become a NextBot for Garry's Mod.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/mm-hsd.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>HOMING SPIDER DROID</h4>
-                    <p>When I was working on this model I was learning Inverse Kinematics and put it to use to automatically move the limbs and pistons into the correct position for assisted animating.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive" src="assets/images/other-frederick.png" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>DISCORD BOT</h4>
-                    <p>This bot was used for the Tamewater Model Creation Team to manage the tickets and Custom Class Creation. Along with the ticket system I have created a Command Handler, Reaction Role System, and many commands like Mute and TicTacToe.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="spacer darklight"></div>
+    
+    <script src="js/portfolio_interpreter.js"></script>
+
+    <footer>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://github.com/d3nosaur" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> – d3nosaur</a>
+                </li>
+                <li>
+                    <a href="mailto:d3nosaur@gmail.com" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i> – d3nosaur@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/213392446980227072/" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i> – Deno#5735</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!--<section class="slider slider--bg">
-    <div id="myCarousel" class="carousel container slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner">
-        <div class="item active">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img src="assets/images/me.png" alt="">
-                <h4>Michael T. Hill</h4>
-                <h6>Designer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img class="carousel-person-image" src="assets/images/team-2.png" alt="">
-                <h4>Leonard D. Downing</h4>
-                <h6>Photographer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="carousel-content">
-            <div class="">
-              <div class="text-center">
-                <img class="carousel-person-image" src="assets/images/team-3.png" alt="">
-                <h4>Paula R. Mullins</h4>
-                <h6>Designer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                <div class="rating">
-                  <ul>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                    <li><i class="material-icons">star</i></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!--<section class="team">
-    <div class="container">
-      <div class="page-section">
-        <h2 class="page-section__title">MY TEAM</h2>
-        <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-        <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-        <div class="row gutters-40">
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img class="img-responsive" src="assets/images/team-1.png" alt="">
-              <h4 class="team__single-section__name">VIOLET R. PETERS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">VIOLET R. PETERS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-3.png" alt="">
-              <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-2.png" alt="">
-              <h4 class="team__single-section__name">LEONARD D. DOWNING</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">LEONARD D. DOWNING</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="thumbnail">
-              <img src="assets/images/team-3.png" alt="">
-              <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-              <p class="team__single-section__title">FOUNDER</p>
-              <div class="team__overlay">
-                <div class="team__overlay__content">
-                  <div class="team__single-section--backPage">
-                    <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                    <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                    <p class="team__single-section--backPage__title">Adobe Photoshop <span class="team__single-section--backPage__percent90">90&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">Adobe Illustrator <span class="team__single-section--backPage__percent80">80&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <p class="team__single-section--backPage__title">After Effect <span class="team__single-section--backPage__percent70">70&#37;</span></p>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                        <span class="progress-bar--dot-main"></span>
-                        <span class="progress-bar--dot"></span>
-                      </div>
-                    </div>
-                    <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                    <div class="social-icons">
-                      <ul>
-                        <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                        <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>-->
-
-  <footer class="footer footer--bg">
-    <div class="container text-center">
-      <ul class="footer__contact-information">
-        <li><a href="mailto:d3nosaur@gmail.com"><i class="material-icons">email</i> d3nosaur@gmail.com</a></li>
-        <li><a href="https://discord.gg"><i class="material-icons">headset_mic</i> Deno#5735</a></li>
-      </ul>
-    </div>
-    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
-  </footer>
-</div>
-  <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/mixitup.js"></script>
-
-  <script>
-    $('a').click(function(e)
-      {
-        e.preventDefault();
-      });
-
-    // calling mixitup
-    var mixer = mixitup(".portfolio");
-  </script>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/fadescroll.js"></script>
 </body>
-</html>  
+
+</html>
