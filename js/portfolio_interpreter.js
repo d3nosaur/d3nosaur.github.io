@@ -98,6 +98,14 @@ const entries = {
                     "images/portfolio/gmod-reborn-scoreboard.png"
                 ],
             },
+            {
+                "id":"drodeka",
+                "title":"Droideka Rig",
+                "description":"A custom rig made for the Battlefront 2 Droideka. Has support for procedural walking and 360 degrees of movement",
+                "carousel":[
+                    "images/portfolio/droideka.gif"
+                ]
+            },
         ]
     }
 };
