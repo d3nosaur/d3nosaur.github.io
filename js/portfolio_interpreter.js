@@ -67,6 +67,18 @@ const entries = {
         "default":false,
         "entries": [
             {
+                "id":"scp173",
+                "title":"SCP-173",
+                "description":"Adds SCP-173 into the game as a playable character. Features include: Blinking, Animated Poses, Two Models, and Custom Sounds. Made as a part of my SCP Entity Base.",
+                "carousel":[
+                    "images/portfolio/gmod-scp173.gif"
+                ],
+                "link":{
+                    "title":"View on Steam Workshop",
+                    "link":"https://steamcommunity.com/sharedfiles/filedetails/?id=2819496247"
+                }
+            },
+            {
                 "id":"bounties",
                 "title":"Bounty System", 
                 "description":"System that integrated with DarkRP to allow bounties to be placed. Lots of config options to choose which jobs could place/claim bounties (legal or illegal) to allow maximum configuration.",
