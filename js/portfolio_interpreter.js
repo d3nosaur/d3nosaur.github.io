@@ -161,6 +161,9 @@ function setButtonState(button, active) {
                 }
             }
         }
+
+        var dark = (button.entryContainer.children.length/2) % 2 == 0;
+        document.querySelector("footer").style.backgroundColor = dark ? "#423d44" : "#272122";
     } else {
         button.style.backgroundColor = "#423d44";
         button.style.color = "#e84b43";
@@ -339,6 +342,10 @@ for(var globalId in entries) {
         first = false;
         dark = !dark;
     }
+
+    var spacer = document.createElement("div");
+    spacer.setAttribute("class", "spacer " + (dark ? 'lightdark' : 'darklight'));
+    entryContainer.appendChild(spacer);
     
     // If the entry is set to default, makes the button active by default
     if(entries[globalId]["default"]) {

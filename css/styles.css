@@ -170,6 +170,8 @@ footer {
   border-width: 2px;
   margin: 0 auto;
   padding: 25px 0;
+  /*background-color: #272122;*/
+  background-color : #423d44;
 }
 
 .copyright {
