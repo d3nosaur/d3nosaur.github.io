@@ -161,9 +161,6 @@ function setButtonState(button, active) {
                 }
             }
         }
-
-        var dark = (button.entryContainer.children.length/2) % 2 == 0;
-        document.querySelector("footer").style.backgroundColor = dark ? "#423d44" : "#272122";
     } else {
         button.style.backgroundColor = "#423d44";
         button.style.color = "#e84b43";
@@ -196,6 +193,9 @@ function createEntryButton(id) {
         // Flips the state
         active = !active;
         setButtonState(button, active);
+
+        var dark = (button.entryContainer.children.length/2) % 2 == 0;
+        document.querySelector("footer").style.backgroundColor = dark ? "#423d44" : "#272122";
     }
 
     // Button array for easy button management
